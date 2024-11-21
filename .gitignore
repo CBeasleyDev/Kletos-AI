@@ -1,0 +1,50 @@
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE-specific files (IntelliJ IDEA, Eclipse, NetBeans, etc.)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Build directories
+/bin/
+/out/
+/build/
+.gradle/
+.mvn/
+
+# Dependency directories
+/lib/
+node_modules/
+
+# OS-generated files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+*.swp            # Vim temporary files
+
+# Environment and sensitive files
+.env
+*.key
+*.pem
+config/secrets.json
+
+# Temporary files and backups
+*.tmp
+*.bak
+*.old
+*.orig
+*~ 
+
+# JavaFX specific
+module-info.java
