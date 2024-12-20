@@ -2,7 +2,7 @@
 
 # Kletos: An Everyday AI Assistant
 
-Kletos is a JavaFX-based AI assistant developed by Christian Beasley. Designed for intuitive and seamless interaction, Kletos leverages OpenAI's API to provide real-time, dynamic AI conversations within a polished graphical interface.
+Kletos is a JavaFX-based AI assistant developed by Christian Beasley. Designed for intuitive and seamless interaction, Kletos leverages Google Gemini API to provide real-time, dynamic AI conversations within a polished graphical interface.
 
 ---
 
