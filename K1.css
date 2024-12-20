@@ -1,0 +1,33 @@
+.send-button {
+    -fx-background-color: linear-gradient(to bottom, #007bff, #0056b3);  /* Gradient from lighter to darker blue */
+    -fx-text-fill: white;                                                /* White text color */
+    -fx-border-width: 0;
+    -fx-background-radius: 50;                                           /* Circular shape */
+    -fx-pref-width: 50px;                                                /* Adjust size */
+    -fx-pref-height: 50px;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 122, 255, 0.3), 10, 0.3, 0, 0);  /* Soft blue glow */
+    -fx-background-insets: 0;
+    -fx-transition: background-color 0.3s ease, transform 0.2s ease;     /* Smooth transition for color and scale */
+}
+
+/* Hover effect for enhanced button interactivity */
+.send-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #0056b3, #004494);   /* Darker gradient on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 85, 179, 0.5), 15, 0.3, 0, 0); /* Enhanced glow on hover */
+    -fx-scale-x: 1.1;                                                    /* Slight scale-up */
+    -fx-scale-y: 1.1;
+}
+
+/* Active effect for a pressed state */
+.send-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #004494, #003366);  /* Darker color when clicked */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0.3, 0, 0);  /* Subtle shadow on press */
+    -fx-scale-x: 1.05;                                                   /* Slight scale-down */
+    -fx-scale-y: 1.05;
+}
+
+.root {
+    -fx-background-color: #d4edda;
+}
